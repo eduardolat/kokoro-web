@@ -54,7 +54,7 @@
       </button>
     </form>
 
-    <h3 class="text-lg font-bold">API Settigs</h3>
+    <h3 class="text-lg font-bold">API Settings</h3>
 
     <p class="pt-2">
       Include an
