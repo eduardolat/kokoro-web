@@ -58,7 +58,8 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - KW_SECRET_API_KEY=your-api-key
+      - KW_SECRET_API_KEY=your-api-key  # Add authentication to your locally running instance
+      - KW_PUBLIC_NO_TRACK=false  # Opt in ("false") or out ("true") of anonymous usage analytics
     volumes:
       - ./kokoro-cache:/kokoro/cache  # Cache downloaded models and voices
     restart: unless-stopped
