@@ -5,6 +5,7 @@ export type VoiceId = Voice["id"];
 
 const englishUs = langsMap["en-us"];
 const englishGb = langsMap["en-gb"];
+const french = langsMap["fr-fr"];
 const japanese = langsMap["ja"];
 const chinese = langsMap["cmn"];
 const spanish = langsMap["es-419"];
@@ -263,6 +264,14 @@ export const voices = [
     gender: genderMale,
     targetQuality: "C",
     overallGrade: "D",
+  },
+  {
+    id: "ff_siwis",
+    name: "Siwis",
+    lang: french,
+    gender: genderFemale,
+    targetQuality: "B",
+    overallGrade: "B-",
   },
   {
     id: "jf_alpha",
