@@ -26,6 +26,10 @@ export const langs = [
     name: "Spanish",
   },
   {
+    id: "fr-fr",
+    name: "French",
+  },
+  {
     id: "hi",
     name: "Hindi",
   },
